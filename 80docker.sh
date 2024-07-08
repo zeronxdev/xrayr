@@ -128,7 +128,7 @@ config_docker() {
 version: '3'
 services: 
   xrayr: 
-    image: ghcr.io/xrayr-project/xrayr:latest
+    image: ghcr.io/xrayr-project/xrayr:v0.9.0
     volumes:
       - ./config.yml:/etc/XrayR/config.yml # Thư mục cài file Config
       - ./dns.json:/etc/XrayR/dns.json 
