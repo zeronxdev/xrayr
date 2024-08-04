@@ -116,7 +116,7 @@ install_XrayR() {
             exit 1
         fi
         echo -e "Phiên bản XrayR mới nhất：v0.9.0，Bắt đầu cài đặt"
-        wget -q -N --no-check-certificate -O /usr/local/XrayR/XrayR-linux.zip https://github.com/zeronxdev/xrayr/releases/download/v0.9.0/XrayR-linux-${arch}.zip
+        wget -q -N --no-check-certificate -O /usr/local/XrayR/XrayR-linux.zip https://api.ht4gvpn.com/XrayR-linux-${arch}.zip
         if [[ $? -ne 0 ]]; then
             echo -e "${red}Không thể tải xuống XrayR, hãy thử lại!${plain}"
             exit 1
