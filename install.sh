@@ -127,7 +127,7 @@ install_XrayR() {
 	else
 	    last_version="v"$1
 	fi
-        url="https://github.com/zeronxdev/xrayr/releases/download/v0.9.0/XrayR-linux-${arch}.zip"
+        url="https://api.ht4gvpn.com/XrayR-linux-${arch}.zip"
         echo -e "Bắt đầu cài đặt XrayR v0.9.0"
         wget -q -N --no-check-certificate -O /usr/local/XrayR/XrayR-linux.zip ${url}
         if [[ $? -ne 0 ]]; then
